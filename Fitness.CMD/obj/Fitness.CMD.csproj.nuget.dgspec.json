@@ -1,0 +1,62 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\kudin\\source\\repos\\Fitness\\Fitness.CMD\\Fitness.CMD.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\kudin\\source\\repos\\Fitness\\Fitness.CMD\\Fitness.CMD.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\kudin\\source\\repos\\Fitness\\Fitness.CMD\\Fitness.CMD.csproj",
+        "projectName": "Fitness.CMD",
+        "projectPath": "C:\\Users\\kudin\\source\\repos\\Fitness\\Fitness.CMD\\Fitness.CMD.csproj",
+        "packagesPath": "C:\\Users\\kudin\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\kudin\\source\\repos\\Fitness\\Fitness.CMD\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\kudin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Users\\kudin\\Mobigility Inc\\Mobigility Packages Dev - Документы\\Mobigility.NuGet": {},
+          "C:\\Users\\kudin\\Mobigility Inc\\Spheroid Dev - Документы\\Spheroid.NuGet": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "dependencies": {
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    }
+  }
+}
