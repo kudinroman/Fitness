@@ -5,7 +5,8 @@ namespace Fitness.BL.Model
     /// <summary>
     /// User
     /// </summary>
-    class User
+    [Serializable]
+    public class User
     {
         #region Properties
         /// <summary>
@@ -16,12 +17,12 @@ namespace Fitness.BL.Model
         /// <summary>
         /// Gender
         /// </summary>
-        public Gender Gender { get; }
+        public Gender Gender { get; set; }
 
         /// <summary>
         /// Date of Birth
         /// </summary>
-        public DateTime BirthDate { get; }
+        public DateTime BirthDate { get; set; }
 
         /// <summary>
         /// Weight
@@ -32,6 +33,11 @@ namespace Fitness.BL.Model
         /// Height
         /// </summary>
         public double Height { get; set; }
+
+        //DateTime nowDate = DateTime.Today;
+        //int age = nowDate.Year - birthDate.Year;
+        //if (birthDate > nowDate.AddYears(-age)) age--;
+        public int Age { get { return DateTime.Now.Year - BirthDate.Year; } }
         #endregion
 
         /// <summary>
@@ -82,9 +88,19 @@ namespace Fitness.BL.Model
             Height = height;
         }
 
+        public User(string name)
+        {
+            if (string.IsNullOrWhiteSpace(name))
+            {
+                throw new ArgumentNullException("User name cannot be empty or null", nameof(name));
+            }
+
+            Name = name;
+        }
+
         public override string ToString()
         {
-            return Name;
+            return $"Name: {Name}; age: {Age};";
         }
     }
 }

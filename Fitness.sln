@@ -5,7 +5,10 @@ VisualStudioVersion = 16.0.29009.5
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Fitness.BL", "Fitness.BL\Fitness.BL.csproj", "{A775CC0C-9975-4D78-B46F-66F287CBEF13}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Fitness.CMD", "Fitness.CMD\Fitness.CMD.csproj", "{8015FFD5-A8E7-4AA6-9AA7-D7BAB69ABA33}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Fitness.CMD", "Fitness.CMD\Fitness.CMD.csproj", "{78B1DF8D-B95C-41E1-9AA6-78467AEC2C9A}"
+	ProjectSection(ProjectDependencies) = postProject
+		{A775CC0C-9975-4D78-B46F-66F287CBEF13} = {A775CC0C-9975-4D78-B46F-66F287CBEF13}
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,10 +20,10 @@ Global
 		{A775CC0C-9975-4D78-B46F-66F287CBEF13}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A775CC0C-9975-4D78-B46F-66F287CBEF13}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A775CC0C-9975-4D78-B46F-66F287CBEF13}.Release|Any CPU.Build.0 = Release|Any CPU
-		{8015FFD5-A8E7-4AA6-9AA7-D7BAB69ABA33}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{8015FFD5-A8E7-4AA6-9AA7-D7BAB69ABA33}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{8015FFD5-A8E7-4AA6-9AA7-D7BAB69ABA33}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{8015FFD5-A8E7-4AA6-9AA7-D7BAB69ABA33}.Release|Any CPU.Build.0 = Release|Any CPU
+		{78B1DF8D-B95C-41E1-9AA6-78467AEC2C9A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{78B1DF8D-B95C-41E1-9AA6-78467AEC2C9A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{78B1DF8D-B95C-41E1-9AA6-78467AEC2C9A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{78B1DF8D-B95C-41E1-9AA6-78467AEC2C9A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

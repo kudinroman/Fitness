@@ -1,0 +1,14 @@
+C:\Users\kudin\source\repos\Fitness\Fitness.CMD\bin\Debug\netcoreapp2.2\Fitness.CMD.deps.json
+C:\Users\kudin\source\repos\Fitness\Fitness.CMD\bin\Debug\netcoreapp2.2\Fitness.CMD.runtimeconfig.json
+C:\Users\kudin\source\repos\Fitness\Fitness.CMD\bin\Debug\netcoreapp2.2\Fitness.CMD.runtimeconfig.dev.json
+C:\Users\kudin\source\repos\Fitness\Fitness.CMD\bin\Debug\netcoreapp2.2\Fitness.CMD.dll
+C:\Users\kudin\source\repos\Fitness\Fitness.CMD\bin\Debug\netcoreapp2.2\Fitness.CMD.pdb
+C:\Users\kudin\source\repos\Fitness\Fitness.CMD\obj\Debug\netcoreapp2.2\Fitness.CMD.csprojAssemblyReference.cache
+C:\Users\kudin\source\repos\Fitness\Fitness.CMD\obj\Debug\netcoreapp2.2\Fitness.CMD.csproj.CoreCompileInputs.cache
+C:\Users\kudin\source\repos\Fitness\Fitness.CMD\obj\Debug\netcoreapp2.2\Fitness.CMD.AssemblyInfoInputs.cache
+C:\Users\kudin\source\repos\Fitness\Fitness.CMD\obj\Debug\netcoreapp2.2\Fitness.CMD.AssemblyInfo.cs
+C:\Users\kudin\source\repos\Fitness\Fitness.CMD\obj\Debug\netcoreapp2.2\Fitness.CMD.dll
+C:\Users\kudin\source\repos\Fitness\Fitness.CMD\obj\Debug\netcoreapp2.2\Fitness.CMD.pdb
+C:\Users\kudin\source\repos\Fitness\Fitness.CMD\bin\Debug\netcoreapp2.2\Fitness.BL.dll
+C:\Users\kudin\source\repos\Fitness\Fitness.CMD\bin\Debug\netcoreapp2.2\Fitness.BL.pdb
+C:\Users\kudin\source\repos\Fitness\Fitness.CMD\obj\Debug\netcoreapp2.2\Fitness.CMD.csproj.CopyComplete
