@@ -1,0 +1,17 @@
+C:\Users\kudin\source\repos\Fitness\Fitness.Tests\bin\Debug\netcoreapp2.1\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+C:\Users\kudin\source\repos\Fitness\Fitness.Tests\bin\Debug\netcoreapp2.1\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+C:\Users\kudin\source\repos\Fitness\Fitness.Tests\bin\Debug\netcoreapp2.1\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+C:\Users\kudin\source\repos\Fitness\Fitness.Tests\bin\Debug\netcoreapp2.1\Fitness.Tests.deps.json
+C:\Users\kudin\source\repos\Fitness\Fitness.Tests\bin\Debug\netcoreapp2.1\Fitness.Tests.runtimeconfig.json
+C:\Users\kudin\source\repos\Fitness\Fitness.Tests\bin\Debug\netcoreapp2.1\Fitness.Tests.runtimeconfig.dev.json
+C:\Users\kudin\source\repos\Fitness\Fitness.Tests\bin\Debug\netcoreapp2.1\Fitness.Tests.dll
+C:\Users\kudin\source\repos\Fitness\Fitness.Tests\bin\Debug\netcoreapp2.1\Fitness.Tests.pdb
+C:\Users\kudin\source\repos\Fitness\Fitness.Tests\obj\Debug\netcoreapp2.1\Fitness.Tests.csprojAssemblyReference.cache
+C:\Users\kudin\source\repos\Fitness\Fitness.Tests\obj\Debug\netcoreapp2.1\Fitness.Tests.csproj.CoreCompileInputs.cache
+C:\Users\kudin\source\repos\Fitness\Fitness.Tests\obj\Debug\netcoreapp2.1\Fitness.Tests.AssemblyInfoInputs.cache
+C:\Users\kudin\source\repos\Fitness\Fitness.Tests\obj\Debug\netcoreapp2.1\Fitness.Tests.AssemblyInfo.cs
+C:\Users\kudin\source\repos\Fitness\Fitness.Tests\obj\Debug\netcoreapp2.1\Fitness.Tests.dll
+C:\Users\kudin\source\repos\Fitness\Fitness.Tests\obj\Debug\netcoreapp2.1\Fitness.Tests.pdb
+C:\Users\kudin\source\repos\Fitness\Fitness.Tests\bin\Debug\netcoreapp2.1\Fitness.BL.dll
+C:\Users\kudin\source\repos\Fitness\Fitness.Tests\bin\Debug\netcoreapp2.1\Fitness.BL.pdb
+C:\Users\kudin\source\repos\Fitness\Fitness.Tests\obj\Debug\netcoreapp2.1\Fitness.Tests.csproj.CopyComplete
