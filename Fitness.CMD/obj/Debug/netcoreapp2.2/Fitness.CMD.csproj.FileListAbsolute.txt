@@ -12,3 +12,10 @@ C:\Users\kudin\source\repos\Fitness\Fitness.CMD\obj\Debug\netcoreapp2.2\Fitness.
 C:\Users\kudin\source\repos\Fitness\Fitness.CMD\bin\Debug\netcoreapp2.2\Fitness.BL.dll
 C:\Users\kudin\source\repos\Fitness\Fitness.CMD\bin\Debug\netcoreapp2.2\Fitness.BL.pdb
 C:\Users\kudin\source\repos\Fitness\Fitness.CMD\obj\Debug\netcoreapp2.2\Fitness.CMD.csproj.CopyComplete
+C:\Users\kudin\source\repos\Fitness\Fitness.CMD\obj\Debug\netcoreapp2.2\Fitness.CMD.Languages.Messages.en-us.resources
+C:\Users\kudin\source\repos\Fitness\Fitness.CMD\obj\Debug\netcoreapp2.2\Fitness.CMD.Languages.Messages.ru-ru.resources
+C:\Users\kudin\source\repos\Fitness\Fitness.CMD\obj\Debug\netcoreapp2.2\Fitness.CMD.csproj.GenerateResource.cache
+C:\Users\kudin\source\repos\Fitness\Fitness.CMD\bin\Debug\netcoreapp2.2\en-us\Fitness.CMD.resources.dll
+C:\Users\kudin\source\repos\Fitness\Fitness.CMD\bin\Debug\netcoreapp2.2\ru-ru\Fitness.CMD.resources.dll
+C:\Users\kudin\source\repos\Fitness\Fitness.CMD\obj\Debug\netcoreapp2.2\en-us\Fitness.CMD.resources.dll
+C:\Users\kudin\source\repos\Fitness\Fitness.CMD\obj\Debug\netcoreapp2.2\ru-ru\Fitness.CMD.resources.dll

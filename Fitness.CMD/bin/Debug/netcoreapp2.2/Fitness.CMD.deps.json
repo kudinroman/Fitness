@@ -12,6 +12,14 @@
         },
         "runtime": {
           "Fitness.CMD.dll": {}
+        },
+        "resources": {
+          "en-us/Fitness.CMD.resources.dll": {
+            "locale": "en-us"
+          },
+          "ru-ru/Fitness.CMD.resources.dll": {
+            "locale": "ru-ru"
+          }
         }
       },
       "Fitness.BL/1.0.0": {
