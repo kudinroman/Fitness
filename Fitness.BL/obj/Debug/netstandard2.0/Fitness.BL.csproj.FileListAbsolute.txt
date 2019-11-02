@@ -6,4 +6,3 @@ C:\Users\kudin\source\repos\Fitness\Fitness.BL\obj\Debug\netstandard2.0\Fitness.
 C:\Users\kudin\source\repos\Fitness\Fitness.BL\obj\Debug\netstandard2.0\Fitness.BL.AssemblyInfo.cs
 C:\Users\kudin\source\repos\Fitness\Fitness.BL\obj\Debug\netstandard2.0\Fitness.BL.dll
 C:\Users\kudin\source\repos\Fitness\Fitness.BL\obj\Debug\netstandard2.0\Fitness.BL.pdb
-C:\Users\kudin\source\repos\Fitness\Fitness.BL\obj\Debug\netstandard2.0\Fitness.BL.csprojAssemblyReference.cache

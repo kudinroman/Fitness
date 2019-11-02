@@ -91,9 +91,7 @@ namespace Fitness.BL.Model
         public User(string name)
         {
             if (string.IsNullOrWhiteSpace(name))
-            {
                 throw new ArgumentNullException("User name cannot be empty or null", nameof(name));
-            }
 
             Name = name;
         }
