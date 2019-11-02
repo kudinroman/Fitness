@@ -1,5 +1,7 @@
 ﻿using Fitness.BL.Controller;
+using Fitness.BL.Model;
 using System;
+using System.Globalization;
 
 namespace Fitness.CMD
 {
@@ -13,6 +15,7 @@ namespace Fitness.CMD
             var name = Console.ReadLine();
 
             var userController = new UserController(name);
+            var eatingController = new EatingController(userController.CurrentUser);
             if (userController.IsNewUser)
             {
                 Console.Write("Enter gender: ");
@@ -25,7 +28,41 @@ namespace Fitness.CMD
             }
 
             Console.WriteLine(userController.CurrentUser);
+
+            Console.WriteLine("What do you want to do?");
+            Console.WriteLine("E - enter a meal");
+            var key = Console.ReadKey();
+            Console.WriteLine();
+
+            if (key.Key == ConsoleKey.E)
+            {
+                var foods = EnterEating();
+                eatingController.Add(foods.Food, foods.Weight);
+
+                foreach (var item in eatingController.Eating.Foods)
+                {
+                    Console.WriteLine($"\t{item.Key} - {item.Value}");
+                }
+            }
+
             Console.ReadLine();
+        }
+
+        private static (Food Food, double Weight) EnterEating()
+        {
+            Console.Write("Enter product name: ");
+            var food = Console.ReadLine();
+
+            var calories = ParseDouble("calorie content");
+            var prots = ParseDouble("proteins");
+            var fats = ParseDouble("fats");
+            var carbs = ParseDouble("carbohydrates");
+
+            var weight = ParseDouble("serving weight");
+            var product = new Food(food, calories, prots, fats, carbs);
+
+
+            return (Food: product, Weight: weight);
         }
 
         private static DateTime ParseDateTime()
@@ -34,7 +71,7 @@ namespace Fitness.CMD
             while (true)
             {
                 Console.Write("Enter birthdate (dd.MM.yyyy): ");
-                if (DateTime.TryParse(Console.ReadLine(), out birthDate))
+                if (DateTime.TryParseExact(Console.ReadLine(), "dd'.'MM'.'yyyy", CultureInfo.CurrentCulture, DateTimeStyles.None, out birthDate))
                 {
                     break;
                 }
@@ -58,7 +95,7 @@ namespace Fitness.CMD
                 }
                 else
                 {
-                    Console.WriteLine($"Wrong format {name}");
+                    Console.WriteLine($"Wrong fields format {name}");
                 }
             }
         }
